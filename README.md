@@ -1,9 +1,14 @@
 # DESAFIO FRONT-END
 
+## Sobre
+**Stack**: React + TypeScript + Axios + TailwindCSS
+**API Externa**: PokeAPI.co (https://pokeapi.co/)
+**Escopo**: Uma Pokedéx online.
+
 ## Requisitos Essenciais (Timebox 4h)
 
 1. Estrutura de Pastas: A estrutura deve ser organizada. Não é sobre **qual** estrutura, mas se ela é consistente e se você consegue justificá-la (posteriormente via README-CANDIDATO).
-2. Consumo de API: Crie um serviço de API que usa *axios* para interagir com o endpoint ```https://pokeapi.co/api/v2/```
+2. Consumo de API: Crie um serviço de API que usa *axios* para interagir com os endpoints.
 3. Tipagem (TypeScript): Crie interfaces para tipar os dados recebidos da API. O uso de *any* deve ser evitado.
 4. Tela 1: Home (/) — A lista de Pokémon
     - Buscar a lista inicial de Pokémons com limite de 151.
