@@ -1,3 +1,7 @@
+* IMPORTANTE: Não inicie este desafio sem autorização. Entre em contato via email ou whatsapp:
+  - administrativo@infinixassessoria.com.br
+  - (21) 99515-2411
+
 # DESAFIO FRONT-END
 
 ## Sobre
