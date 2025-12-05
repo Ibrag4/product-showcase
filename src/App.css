@@ -22,13 +22,18 @@
   border-radius: 12px;
   text-align: center;
   cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-transform: capitalize;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
   transition: 0.2s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
 }
 
 .modal-bg {
@@ -58,3 +63,5 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
+
