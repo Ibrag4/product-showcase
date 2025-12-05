@@ -1,3 +1,36 @@
+body{
+  background-color: rgb(163, 0, 0);
+}
+
+.search {
+  width: 100%;
+  max-width: 420px;     /* aumentei a largura */
+  padding: 16px 20px;   /* aumentei o espaço interno */
+  padding-left: 46px;   /* ajustei pro ícone */
+  font-size: 18px;      /* texto mais confortável */
+  border: 2px solid #e2e2e2;
+  border-radius: 14px;
+  outline: none;
+  transition: 0.25s ease;
+  margin: 20px auto;    /* mais espaço ao redor */
+  display: block;
+  background: #fff url("https://cdn-icons-png.flaticon.com/512/622/622669.png")
+    no-repeat 14px center;
+  background-size: 22px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.search:focus {
+  border-color: #ff5350;
+  box-shadow: 0 0 8px rgba(255, 83, 80, 0.35);
+  transform: scale(1.03);
+}
+
+
+.search::placeholder {
+  color: #999;
+}
+
 .loading-container {
   height: 100vh;
   display: flex;
